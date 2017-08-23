@@ -1,8 +1,7 @@
 # vccp-test
 
-### Install packages
-`npm install`
+Clone my repo and install packages. The url for test is like localhost/vccp-test/www 
 
-Hint: 
-Link for public repository is on the end of animation like my git name.
-You can clone and install it. 
+### Install packages
+just:
+`npm install`
