@@ -1,0 +1,56 @@
+{
+  "name": "diovo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "dir-compare": "^1.4.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-deploy-ftp": "^1.0.0",
+    "gulp-filter": "^5.0.0",
+    "gulp-ftp": "^1.1.0",
+    "gulp-image": "^2.9.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-series": "^1.0.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-stylelint": "^3.9.0",
+    "gulp-svgmin": "^1.2.4",
+    "gulp-tinypng-compress": "^1.2.1",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
+    "jquery": "^3.2.1",
+    "jsftp": "^2.0.0",
+    "modernizr-webpack-plugin": "^1.0.6",
+    "node-neat": "^2.0.0-beta.0",
+    "path": "^0.12.7",
+    "require-dir": "^0.3.1",
+    "uglify-es": "github:mishoo/UglifyJS2#harmony",
+    "webpack-stream": "^3.2.0"
+  },
+  "stylelint": {
+    "rules": {
+      "block-no-empty": null,
+      "color-no-invalid-hex": true,
+      "declaration-colon-space-after": "always",
+      "max-empty-lines": 2,
+      "unit-whitelist": [
+        "em",
+        "rem",
+        "%",
+        "s",
+        "px"
+      ]
+    }
+  }
+}

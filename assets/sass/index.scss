@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+
+html, body {
+  overflow: hidden;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+div[class^='square'] {
+  @extend .center;
+
+  width: 100px;
+  height: 100px;
+
+  background-color: red;
+}
+
+header {
+  @extend .center;
+
+  #name {
+    opacity: 0;
+    font-size: 100px;
+  }
+}
